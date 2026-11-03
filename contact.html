@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact the IRP LMS student support team.">
+  <title>Contact Us | IRP LMS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style-contact.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="IRP LMS home">
+        <img src="https://res.cloudinary.com/dwh7w9kz1/image/upload/v1793204894/irp_lms_navbar_icon_rc0f9k.png" alt="">
+        <span class="brand-cap" aria-hidden="true">🎓</span><span>IRP LMS</span>
+      </a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Toggle navigation">
+      <label class="nav-toggle-label" for="nav-toggle" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="courses.html">Courses</a><a class="active" href="contact.html" aria-current="page">Contact Us</a><a class="sign-in" href="contact.html">Sign In</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="inner-hero contact-hero">
+      <div class="container inner-hero-inner">
+        <div class="inner-hero-copy">
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h1>Contact <span>Us</span></h1>
+          <p>We're here to help! Whether you have a question, feedback,<br class="desktop-break"> or just want to say hello — reach out to us.</p>
+        </div>
+        <img class="inner-hero-art" src="https://res.cloudinary.com/dwh7w9kz1/image/upload/v1793204868/Minimalist_E-learning_Banner_with_Graduation_Cap_l9jd7u.png" alt="Education and communication illustration">
+      </div>
+    </section>
+
+    <section class="container contact-section">
+      <aside class="contact-panel">
+        <h2>Get in Touch</h2>
+        <p class="panel-intro">We'd love to hear from you! Fill out the form and our team will get back to you as soon as possible.</p>
+        <div class="contact-detail"><h3>Email Us</h3><a href="mailto:support@irplms.com">support@irplms.com</a></div>
+        <div class="contact-detail"><h3>Call Us</h3><a href="tel:+919876543210">+91 98765 43210</a></div>
+        <div class="contact-detail"><h3>Our Office</h3><p>123, Tech Park, 2nd Floor,<br>Bangalore, Karnataka – 560001</p></div>
+      </aside>
+
+      <section class="form-panel">
+        <h2>Send Us a Message</h2>
+        <p class="form-intro">We'll get back to you within 24 hours.</p>
+        <form action="https://formsubmit.co/support@irplms.com" method="POST">
+          <input type="hidden" name="_subject" value="New message from IRP LMS website">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="true">
+          <div class="form-row">
+            <div class="form-field"><label for="full-name">Full Name <span>*</span></label><input id="full-name" name="Full Name" type="text" placeholder="Enter your full name" autocomplete="name" required></div>
+            <div class="form-field"><label for="email">Email Address <span>*</span></label><input id="email" name="Email Address" type="email" placeholder="Enter your email address" autocomplete="email" required></div>
+          </div>
+          <div class="form-field"><label for="subject">Subject <span>*</span></label>
+            <select id="subject" name="Subject" required>
+              <option value="" selected disabled>Select a subject</option>
+              <option>Course Enquiry</option><option>Technical Support</option><option>Placement Assistance</option><option>Feedback</option><option>Other</option>
+            </select>
+          </div>
+          <div class="form-field"><label for="message">Message <span>*</span></label><textarea id="message" name="Message" rows="4" placeholder="Type your message here..." required></textarea></div>
+          <button class="btn submit-btn" type="submit">Send Message</button>
+          <p class="form-note">Your message is sent securely through the hosted form service. The first submission requires the recipient to confirm the activation email.</p>
+        </form>
+      </section>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container">© 2026 IRP LMS. Learn • Build • Get Placed.</div></footer>
+</body>
+</html>
